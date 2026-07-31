@@ -1,0 +1,53 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/o1-labs + registry.npmjs.org
+packages:
+  - language: javascript
+    registry: npm
+    name: o1js
+    url: https://www.npmjs.com/package/o1js
+    install: npm install o1js
+    version: 2.15.0
+    license: Apache-2.0
+    repo: https://github.com/o1-labs/o1js
+    description: TypeScript framework for zk-SNARKs and zkApps (formerly SnarkyJS).
+    official: true
+  - language: javascript
+    registry: npm
+    name: mina-signer
+    url: https://www.npmjs.com/package/mina-signer
+    install: npm install mina-signer
+    version: 4.1.0
+    license: Apache-2.0
+    repo: https://github.com/o1-labs/mina-signer
+    description: Node API for signing transactions on Mina networks.
+    official: true
+  - language: javascript
+    registry: github
+    name: mina-sdk-js
+    url: https://github.com/o1-labs/mina-sdk-js
+    repo: https://github.com/o1-labs/mina-sdk-js
+    description: TypeScript/JavaScript SDK for the Mina Node GraphQL API.
+    official: true
+  - language: go
+    registry: github
+    name: mina-sdk-go
+    url: https://github.com/o1-labs/mina-sdk-go
+    install: go get github.com/o1-labs/mina-sdk-go
+    repo: https://github.com/o1-labs/mina-sdk-go
+    description: Go SDK for interacting with Mina Protocol nodes.
+    official: true
+  - language: python
+    registry: github
+    name: mina-sdk-python
+    url: https://github.com/o1-labs/mina-sdk-python
+    repo: https://github.com/o1-labs/mina-sdk-python
+    description: Python SDK for interacting with Mina Protocol nodes.
+    official: true
+  - language: rust
+    registry: github
+    name: mina-sdk-rust
+    url: https://github.com/o1-labs/mina-sdk-rust
+    repo: https://github.com/o1-labs/mina-sdk-rust
+    description: Rust SDK for interacting with Mina Protocol nodes.
+    official: true

@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.minaprotocol.com/network-upgrades + https://github.com/o1-labs/o1js/releases
+versioning:
+  scheme: semver
+  current: 2.15.0
+  subject: o1js
+  docs: https://github.com/o1-labs/o1js/releases
+protocol_upgrades:
+  model: hard-fork (network-wide, not backward compatible)
+  docs: https://docs.minaprotocol.com/network-upgrades
+  recent:
+    - name: Berkeley
+      summary: Transition to the Berkeley proof system with zkApp support.
+    - name: Mesa
+      summary: Expanded zkApp state, automode upgrades, protocol improvements.
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: null
+deprecated_operations: []
+notes: >-
+  o1 Labs ships developer frameworks (o1js) versioned with semver plus dated GitHub
+  releases, and coordinates Mina Protocol network upgrades as documented hard forks
+  (Berkeley, Mesa). No formal API deprecation policy, SLA, or hosted status page was
+  found (status.minaprotocol.com does not resolve).

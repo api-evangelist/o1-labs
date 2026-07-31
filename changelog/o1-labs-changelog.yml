@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/o1-labs/o1js/releases
+subject: o1js (o1 Labs flagship developer framework)
+scheme: semver
+current_version: 2.15.0
+changelog_url: https://github.com/o1-labs/o1js/blob/main/CHANGELOG.md
+releases_url: https://github.com/o1-labs/o1js/releases
+entries:
+  - version: 2.15.0
+    date: '2026-05-06'
+    breaking: false
+    highlights: Release 2.15.0.
+  - version: 2.14.0
+    date: '2026-03-16'
+    breaking: false
+    highlights: Release 2.14.0.
+  - version: 2.13.1
+    date: '2026-03-11'
+    breaking: false
+    highlights: Release 2.13.1 (patch).
+  - version: 2.13.0
+    date: '2026-02-04'
+    breaking: false
+    highlights: Release 2.13.0.
+  - version: 2.12.0
+    date: '2025-12-04'
+    breaking: false
+    highlights: Release 2.12.0.
+notes: >-
+  o1js publishes a dated CHANGELOG.md and tagged GitHub releases following semver.
+  Recent-window snapshot only; the live releases page is the source of truth.
