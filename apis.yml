@@ -1,15 +1,12 @@
 aid: o1-labs
 name: o1 Labs
-description: >-
-  o1 Labs (o1Labs) is a zero-knowledge cryptography company and the incubator of
-  Mina Protocol, a lightweight blockchain that stays a constant ~22KB using
-  recursive zk-SNARKs. o1 Labs builds the developer tooling for privacy-preserving
-  applications: o1js, a TypeScript framework for writing zk-SNARKs and zkApps
-  (formerly SnarkyJS); Kimchi, the underlying proof system; mina-signer for
-  transaction signing; and Mina Node SDKs for JavaScript, Go, Python, and Rust
-  that talk to the Mina GraphQL API. Developer documentation, zkApp guides, and the
-  node/GraphQL API reference are published at docs.minaprotocol.com, and all
-  tooling is open source on GitHub under the o1-labs organization.
+description: 'o1 Labs (o1Labs) is a zero-knowledge cryptography company and the incubator of Mina Protocol,
+  a lightweight blockchain that stays a constant ~22KB using recursive zk-SNARKs. o1 Labs builds the developer
+  tooling for privacy-preserving applications: o1js, a TypeScript framework for writing zk-SNARKs and
+  zkApps (formerly SnarkyJS); Kimchi, the underlying proof system; mina-signer for transaction signing;
+  and Mina Node SDKs for JavaScript, Go, Python, and Rust that talk to the Mina GraphQL API. Developer
+  documentation, zkApp guides, and the node/GraphQL API reference are published at docs.minaprotocol.com,
+  and all tooling is open source on GitHub under the o1-labs organization.'
 url: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -31,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Crypto Infrastructure
@@ -78,8 +75,18 @@ common:
   url: lifecycle/o1-labs-lifecycle.yml
 - type: DomainSecurity
   url: security/o1-labs-domain-security.yml
+- type: SourceCode
+  url: https://github.com/o1-labs/o1js
+- type: CLI
+  url: cli/o1-labs-cli.yml
+- type: Sandbox
+  url: sandbox/o1-labs-sandbox.yml
+- type: WellKnown
+  url: well-known/o1-labs-well-known.yml
 x-enrichment:
   date: '2026-07-20'
   status: enriched
   artifacts_added: 6
   pass: local-v1
+x-merged-from:
+- o1labs
