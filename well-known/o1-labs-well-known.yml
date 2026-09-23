@@ -2,7 +2,12 @@ generated: '2026-07-20'
 method: searched
 source: live probes of https://www.o1labs.org/.well-known/*
 host: https://www.o1labs.org
-documents:
+notes: No /.well-known/ discovery documents are published on o1labs.org. The company ships developer tooling
+  (o1js, mina-signer, language SDKs) rather than a hosted first-party HTTP API, so there is no OpenID/OAuth
+  discovery or api-catalog surface.
+hosts:
+- host: https://www.o1labs.org
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -13,7 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: >-
-  No /.well-known/ discovery documents are published on o1labs.org. The company
-  ships developer tooling (o1js, mina-signer, language SDKs) rather than a hosted
-  first-party HTTP API, so there is no OpenID/OAuth discovery or api-catalog surface.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
